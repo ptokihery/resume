@@ -31,6 +31,7 @@ const Span = styled.span`
   margin-left: 10px;
   color: var(--color-gray);
   line-height: 20px;
+  font-family: Gilroy-Bold;
 `;
 export default function SideBarFooter() {
   return (
