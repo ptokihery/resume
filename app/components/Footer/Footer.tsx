@@ -22,7 +22,7 @@ const StyledLink = styled.span`
   text-decoration: none;
   font-size: 14px;
   line-height: 22px;
-  font-family: Gilroy-Regular
+  font-family: "Gilroy-Medium"
 `;
 
 const navs: NavProps[] = [

@@ -40,8 +40,7 @@ export const colorStyles = (color: string) => {
 };
 
 export const titleStyles = css`
-  font-size: var(--size-text-title-h5);
-  font-weight: bold;
+  font-size: var(--size-text-title-h5);  
 `;
 
 export const imageWrapperStyles = css`
@@ -72,6 +71,9 @@ export const ContentWrapper = styled.div`
 
 export const Title = styled.h4`
   ${titleStyles}
+  font-size: 22px;
+  font-weight: 600 !important;
+  font-family: "Gilroy-Regular" !important;  
 `;
 
 export const ImageWrapper = styled.div`

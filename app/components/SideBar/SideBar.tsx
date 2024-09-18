@@ -49,7 +49,10 @@ const MainIconLink = styled(IconLink)`
 
 const ListsContainer = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  & a div {
+    font-family: "Gilroy-Medium" !important;
+  }
 `;
 
 const StyledIconLink = styled(IconLink)`
@@ -58,6 +61,7 @@ const StyledIconLink = styled(IconLink)`
 
 const StyledDropdown = styled(Dropdown)`
   margin-top: 10px;
+  
 `;
 
 const StarsIcon = styled.img.attrs({

@@ -12,6 +12,9 @@ export const MenuDropdown = styled.div<MenuDropdownProps>`
   visibility: ${(props) => (props.$isOpen ? 'visible' : 'hidden')} !important;
   opacity: ${(props) => (props.$isOpen ? '1' : '0')};
   transition: visibility 0.3s linear, opacity 0.3s linear;
+  & a div {
+    font-family: "Gilroy-Medium" !important;
+  }
 `;
 
 export const Menu = styled.div`

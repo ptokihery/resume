@@ -16,7 +16,7 @@ export const StyledButton = styled.button<StyledButtonProps>`
       color: #fff;
       background-color: var(--color-${props.color});
       font-size: var(--size-text-medium);
-      font-family: var(--font-gilroy-medium);
+      font-family: "Gilroy-Medium" !important;
     `}
   ${(props) =>
     props.size === 'md' &&

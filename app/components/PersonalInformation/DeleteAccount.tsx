@@ -5,6 +5,7 @@ import { CardWrapper, Title, TextMedium, TextDanger, CardContentWrapper } from '
 
 const CardTitles = styled(Title)`
   color: var(--color-dark);
+  font-size: 18px !important;
 `; 
 const CardContent = styled(CardContentWrapper)`
   flex-direction: column;
@@ -16,7 +17,7 @@ const Card = styled(CardWrapper)`
 
 export default function DeleteAccount() {
   return (
-    <div style={{ margin: "20px 0px" }}>
+  
       <Card color='white'>
         <CardContent>
           <CardTitles>Delete account</CardTitles>
@@ -31,7 +32,7 @@ export default function DeleteAccount() {
           </Link>
         </CardContent>
       </Card>
-    </div>
+ 
   );
 }
 

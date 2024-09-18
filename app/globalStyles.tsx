@@ -53,7 +53,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   @font-face {
-    font-family: 'Gilroy-Regular.woff';
+    font-family: 'Gilroy-Regular';
     src: url('/fonts/Gilroy-Regular.woff') format('woff');
     font-style: normal;
     font-weight: 400;

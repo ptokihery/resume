@@ -62,7 +62,7 @@ const AgreementContainer = styled.div`
 `;
 
 const Paragraph = styled.p`
-  margin: 10px 0;
+  margin: 25px 0;
 `;
 
 const PersonalInformationForm = () => {
